@@ -3,6 +3,7 @@ resource "local_file" "file1" {
   content = var.var-num // we can also use var-num
 }
 
+#hello here
 
 resource "local_file" "file2" {
   filename = var.var-filename       //form tfvars file
